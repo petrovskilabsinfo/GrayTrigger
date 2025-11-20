@@ -1,0 +1,1017 @@
+export const translations = {
+  uk: {
+    // Header
+    'nav.what': 'Що це?',
+    'nav.features': 'Функції',
+    'nav.funding': 'Підтримка',
+    'nav.join': 'Долучитися',
+    'nav.privacy': 'Конфіденційність',
+
+    // Hero
+    'hero.title': 'GrayTrigger',
+    'hero.subtitle': 'менше екрану, більше обіймів.',
+    'hero.description': 'Автоматичний чорно-білий режим для YouTube, TikTok, Instagram та інших сайтів. Допомагає зменшити залипання в соцмережах — без блокувань, без примусу.',
+    'hero.btn.support': 'Підтримати на Patreon',
+    'hero.btn.developer': 'Долучитися як розробник',
+    'hero.btn.demo': 'Подивитися демо',
+    'hero.demo': 'Демо відео',
+
+    // What is it
+    'what.title': '🎯 Що це таке?',
+    'what.description': 'GrayTrigger — це застосунок, який автоматично переводить екран або окремі сайти у чорно-білий режим, коли ви відкриваєте TikTok, Instagram, YouTube, Snapchat, X/Twitter, Facebook тощо.',
+    'what.note': 'Це не блокування. Це м\'який візуальний вплив, який знижує привабливість контенту і допомагає зосередитися на реальному житті.',
+
+    // For whom
+    'forwhom.title': '👨‍👩‍👧 Для кого?',
+    'forwhom.parents': 'Батьки',
+    'forwhom.parents.desc': 'щоб діти мали доступ до всього, але самі не хотіли залипати.',
+    'forwhom.companies': 'Компанії та школи',
+    'forwhom.companies.desc': 'щоб співробітники і студенти менше відволікалися.',
+    'forwhom.everyone': 'Кожен, хто хоче фокус і баланс',
+    'forwhom.everyone.desc': 'без жорстких обмежень.',
+
+    // How it works
+    'how.title': '💡 Як це працює?',
+    'how.step1': 'Ви відкриваєте сайт',
+    'how.step1.desc': '(наприклад, TikTok або YouTube).',
+    'how.step2': 'GrayTrigger визначає активну вкладку',
+    'how.step2.desc': 'і розпізнає цільовий сайт.',
+    'how.step3': 'Вмикається чорно-білий режим',
+    'how.step3.desc': 'автоматично для всього екрану.',
+    'how.step4': 'Ви залишаєте сайт',
+    'how.step4.desc': 'кольори повертаються.',
+    'how.platforms': 'Працює на:',
+    'how.platforms.desc': 'Windows, macOS, браузерах.',
+    'how.mobile': 'Мобільна версія — в розробці.',
+    'how.video': 'Детальна демонстрація',
+
+    // Features
+    'features.title': '🔐 Функції',
+    'features.time': 'Планування часу',
+    'features.time.desc': 'Встановлюйте ліміти часу для різних сайтів',
+    'features.password': 'Пароль для батьків',
+    'features.password.desc': 'Захистіть налаштування від змін дітьми',
+    'features.stats': 'Статистика використання',
+    'features.stats.desc': 'Відстежуйте час, проведений на різних сайтах',
+    'features.cross': 'Кросплатформність',
+    'features.cross.desc': 'Працює на всіх популярних операційних системах',
+    'features.psychology': 'М\'який психологічний вплив',
+    'features.psychology.desc': 'Зменшує привабливість без блокування доступу',
+    'features.company': 'Режим для компаній',
+    'features.company.desc': 'Централізоване налаштування для організацій',
+
+    // Funding
+    'funding.title': 'Навіщо ми збираємо кошти?',
+    'funding.goal1': 'Завершити десктопну версію',
+    'funding.goal2': 'Створити мобільний додаток',
+    'funding.goal3': 'Запустити браузерні розширення',
+    'funding.goal4': 'Провести маркетинг і тестування',
+    'funding.goal5': 'Побудувати ком\'юніті навколо ідеї',
+    'funding.target': 'Ціль: $50,000',
+    'funding.raised': '$11,500 зібрано • 23% від цілі',
+
+    // Join us
+    'join.title': '📢 Як долучитися?',
+    'join.subtitle': 'Станьте частиною руху за здоровий цифровий баланс',
+    'join.support.title': 'Підтримайте проект',
+    'join.support.kickstarter': 'Підтримай на Kickstarter',
+    'join.support.team': 'Стань частиною команди',
+    'join.contact.title': 'Залишайтесь на зв\'язку',
+    'join.contact.email': 'Ваш email для апдейтів',
+    'join.contact.share': 'Поділись ідеєю #GrayTrigger',
+    'join.message': 'Разом ми можемо створити здоровіший цифровий світ для всіх',
+
+    // Privacy Policy
+    'privacy.title': 'Політика конфіденційності',
+    'privacy.no_collection.title': 'Не збираємо дані',
+    'privacy.no_collection.desc': 'GrayTrigger не збирає, не зберігає і не передає жодних особистих даних.',
+    'privacy.local_storage.title': 'Локальне зберігання',
+    'privacy.local_storage.desc': 'Всі налаштування зберігаються локально у вашому браузері через безпечний API Chrome.',
+    'privacy.no_tracking.title': 'Без відстеження',
+    'privacy.no_tracking.desc': 'Ніякої аналітики, відстеження чи реклами. Повна конфіденційність.',
+    'privacy.statement': 'GrayTrigger не збирає, не зберігає і не передає жодних особистих даних. Всі налаштування зберігаються локально у вашому браузері через безпечний API зберігання Chrome. Ніякої аналітики, відстеження чи реклами.',
+    'privacy.developed_by': 'Розробка:',
+
+    // Footer
+    'footer.disclaimer': '📜 "Це добровільна підтримка. Ми не гарантуємо фінальний реліз, але всі кошти підуть на реалізацію ідеї."',
+    'footer.transparency': 'Ми віримо в прозорість і чесність з нашою спільнотою',
+    'footer.copyright': '© 2025 GrayTrigger. Всі права захищені.',
+    'footer.privacy': 'Політика конфіденційності',
+    'footer.terms': 'Умови використання',
+    'footer.contact': 'Контакти',
+
+    // Common
+    'common.premium': 'Premium',
+    'common.thanks': 'Дякуємо за підписку!',
+
+    // Donation
+    'donate.title': 'Підтримайте проект',
+    'donate.subtitle': 'Допоможіть нам створити здоровий цифровий світ',
+    'donate.description': 'Ваша підтримка допоможе нам завершити розробку GrayTrigger і зробити його доступним для всіх',
+    'donate.select_amount': 'Оберіть суму',
+    'donate.custom_amount': 'Або введіть свою суму:',
+    'donate.support_paypal': 'Підтримати через PayPal',
+    'donate.benefits_title': 'Що ви отримаєте',
+    'donate.early_access': 'Ранній доступ',
+    'donate.early_access_desc': 'Першими отримаєте доступ до нових функцій',
+    'donate.team_thanks': 'Подяка команди',
+    'donate.team_thanks_desc': 'Ваше ім\'я у списку подяк',
+    'donate.development_impact': 'Вплив на розвиток',
+    'donate.development_impact_desc': 'Допоможіть визначити майбутнє проекту',
+    'donate.transparency': '100% прозорість: Всі кошти йдуть на розробку, тестування та підтримку проекту. Ніяких прихованих комісій.',
+    'donate.thank_you': 'Дякуємо!',
+    'donate.thank_you_message': 'Ваша підтримка дуже важлива для нас. Разом ми створимо кращий цифровий світ!',
+    'donate.stats.raised': 'Зібрано',
+    'donate.stats.supporters': 'Підтримали',
+    'donate.stats.goal': 'Від цілі',
+  },
+
+  en: {
+    // Header
+    'nav.what': 'What is it?',
+    'nav.features': 'Features',
+    'nav.funding': 'Support',
+    'nav.join': 'Join Us',
+    'nav.privacy': 'Privacy',
+
+    // Hero
+    'hero.title': 'GrayTrigger',
+    'hero.subtitle': 'less screen, more hugs.',
+    'hero.description': 'Automatic grayscale mode for YouTube, TikTok, Instagram and other sites. Helps reduce social media addiction — without blocking, without forcing.',
+    'hero.btn.support': 'Support on Patreon',
+    'hero.btn.developer': 'Join as Developer',
+    'hero.btn.demo': 'Watch Demo',
+    'hero.demo': 'Demo Video',
+
+    // What is it
+    'what.title': '🎯 What is it?',
+    'what.description': 'GrayTrigger is an app that automatically switches your screen or specific sites to grayscale mode when you open TikTok, Instagram, YouTube, Snapchat, X/Twitter, Facebook, etc.',
+    'what.note': 'This is not blocking. It\'s a gentle visual influence that reduces content attractiveness and helps focus on real life.',
+
+    // For whom
+    'forwhom.title': '👨‍👩‍👧 Who is it for?',
+    'forwhom.parents': 'Parents',
+    'forwhom.parents.desc': 'so kids have access to everything, but don\'t want to get stuck.',
+    'forwhom.companies': 'Companies and schools',
+    'forwhom.companies.desc': 'so employees and students get distracted less.',
+    'forwhom.everyone': 'Anyone who wants focus and balance',
+    'forwhom.everyone.desc': 'without harsh restrictions.',
+
+    // How it works
+    'how.title': '💡 How does it work?',
+    'how.step1': 'You open a site',
+    'how.step1.desc': '(for example, TikTok or YouTube).',
+    'how.step2': 'GrayTrigger detects the active tab',
+    'how.step2.desc': 'and recognizes the target site.',
+    'how.step3': 'Grayscale mode turns on',
+    'how.step3.desc': 'automatically for the entire screen.',
+    'how.step4': 'You leave the site',
+    'how.step4.desc': 'colors return.',
+    'how.platforms': 'Works on:',
+    'how.platforms.desc': 'Windows, macOS, browsers.',
+    'how.mobile': 'Mobile version — in development.',
+    'how.video': 'Detailed demonstration',
+
+    // Features
+    'features.title': '🔐 Features',
+    'features.time': 'Time Planning',
+    'features.time.desc': 'Set time limits for different sites',
+    'features.password': 'Parental Password',
+    'features.password.desc': 'Protect settings from children\'s changes',
+    'features.stats': 'Usage Statistics',
+    'features.stats.desc': 'Track time spent on different sites',
+    'features.cross': 'Cross-platform',
+    'features.cross.desc': 'Works on all popular operating systems',
+    'features.psychology': 'Gentle Psychological Impact',
+    'features.psychology.desc': 'Reduces attractiveness without blocking access',
+    'features.company': 'Company Mode',
+    'features.company.desc': 'Centralized settings for organizations',
+
+    // Funding
+    'funding.title': 'Why are we raising funds?',
+    'funding.goal1': 'Complete desktop version',
+    'funding.goal2': 'Create mobile app',
+    'funding.goal3': 'Launch browser extensions',
+    'funding.goal4': 'Conduct marketing and testing',
+    'funding.goal5': 'Build community around the idea',
+    'funding.target': 'Goal: $50,000',
+    'funding.raised': '$11,500 raised • 23% of goal',
+
+    // Join us
+    'join.title': '📢 How to join?',
+    'join.subtitle': 'Become part of the movement for healthy digital balance',
+    'join.support.title': 'Support the project',
+    'join.support.kickstarter': 'Support on Kickstarter',
+    'join.support.team': 'Become part of the team',
+    'join.contact.title': 'Stay in touch',
+    'join.contact.email': 'Your email for updates',
+    'join.contact.share': 'Share the idea #GrayTrigger',
+    'join.message': 'Together we can create a healthier digital world for everyone',
+
+    // Privacy Policy
+    'privacy.title': 'Privacy Policy',
+    'privacy.no_collection.title': 'No Data Collection',
+    'privacy.no_collection.desc': 'GrayTrigger does not collect, store, or transmit any personal data.',
+    'privacy.local_storage.title': 'Local Storage',
+    'privacy.local_storage.desc': 'All settings are stored locally in your browser using Chrome\'s secure storage API.',
+    'privacy.no_tracking.title': 'No Tracking',
+    'privacy.no_tracking.desc': 'No analytics, no tracking, no ads. Complete privacy.',
+    'privacy.statement': 'GrayTrigger does not collect, store, or transmit any personal data. All settings are stored locally in your browser using Chrome\'s secure storage API. No analytics, no tracking, no ads.',
+    'privacy.developed_by': 'Development by:',
+
+    // Footer
+    'footer.disclaimer': '📜 "This is voluntary support. We don\'t guarantee a final release, but all funds will go towards realizing the idea."',
+    'footer.transparency': 'We believe in transparency and honesty with our community',
+    'footer.copyright': '© 2025 GrayTrigger. All rights reserved.',
+    'footer.privacy': 'Privacy Policy',
+    'footer.terms': 'Terms of Use',
+    'footer.contact': 'Contact',
+
+    // Common
+    'common.premium': 'Premium',
+    'common.thanks': 'Thank you for subscribing!',
+
+    // Donation
+    'donate.title': 'Support the Project',
+    'donate.subtitle': 'Help us create a healthy digital world',
+    'donate.description': 'Your support will help us complete GrayTrigger development and make it available to everyone',
+    'donate.select_amount': 'Select Amount',
+    'donate.custom_amount': 'Or enter your amount:',
+    'donate.support_paypal': 'Support via PayPal',
+    'donate.benefits_title': 'What You Get',
+    'donate.early_access': 'Early Access',
+    'donate.early_access_desc': 'Be first to get access to new features',
+    'donate.team_thanks': 'Team Gratitude',
+    'donate.team_thanks_desc': 'Your name in the acknowledgments list',
+    'donate.development_impact': 'Development Impact',
+    'donate.development_impact_desc': 'Help determine the project\'s future',
+    'donate.transparency': '100% transparency: All funds go to development, testing and project support. No hidden fees.',
+    'donate.thank_you': 'Thank You!',
+    'donate.thank_you_message': 'Your support is very important to us. Together we will create a better digital world!',
+    'donate.stats.raised': 'Raised',
+    'donate.stats.supporters': 'Supporters',
+    'donate.stats.goal': 'Of Goal',
+  },
+
+  es: {
+    // Header
+    'nav.what': '¿Qué es?',
+    'nav.features': 'Características',
+    'nav.funding': 'Apoyo',
+    'nav.join': 'Únete',
+    'nav.privacy': 'Privacidad',
+
+    // Hero
+    'hero.title': 'GrayTrigger',
+    'hero.subtitle': 'menos pantalla, más abrazos.',
+    'hero.description': 'Modo escala de grises automático para YouTube, TikTok, Instagram y otros sitios. Ayuda a reducir la adicción a las redes sociales — sin bloqueos, sin forzar.',
+    'hero.btn.support': 'Apoyar en Patreon',
+    'hero.btn.developer': 'Únete como Desarrollador',
+    'hero.btn.demo': 'Ver Demo',
+    'hero.demo': 'Video Demo',
+
+    // What is it
+    'what.title': '🎯 ¿Qué es?',
+    'what.description': 'GrayTrigger es una aplicación que automáticamente cambia tu pantalla o sitios específicos al modo escala de grises cuando abres TikTok, Instagram, YouTube, Snapchat, X/Twitter, Facebook, etc.',
+    'what.note': 'Esto no es bloqueo. Es una influencia visual suave que reduce el atractivo del contenido y ayuda a enfocarse en la vida real.',
+
+    // For whom
+    'forwhom.title': '👨‍👩‍👧 ¿Para quién?',
+    'forwhom.parents': 'Padres',
+    'forwhom.parents.desc': 'para que los niños tengan acceso a todo, pero no quieran quedarse atascados.',
+    'forwhom.companies': 'Empresas y escuelas',
+    'forwhom.companies.desc': 'para que empleados y estudiantes se distraigan menos.',
+    'forwhom.everyone': 'Cualquiera que quiera enfoque y equilibrio',
+    'forwhom.everyone.desc': 'sin restricciones severas.',
+
+    // How it works
+    'how.title': '💡 ¿Cómo funciona?',
+    'how.step1': 'Abres un sitio',
+    'how.step1.desc': '(por ejemplo, TikTok o YouTube).',
+    'how.step2': 'GrayTrigger detecta la pestaña activa',
+    'how.step2.desc': 'y reconoce el sitio objetivo.',
+    'how.step3': 'Se activa el modo escala de grises',
+    'how.step3.desc': 'automáticamente para toda la pantalla.',
+    'how.step4': 'Sales del sitio',
+    'how.step4.desc': 'los colores regresan.',
+    'how.platforms': 'Funciona en:',
+    'how.platforms.desc': 'Windows, macOS, navegadores.',
+    'how.mobile': 'Versión móvil — en desarrollo.',
+    'how.video': 'Demostración detallada',
+
+    // Features
+    'features.title': '🔐 Características',
+    'features.time': 'Planificación de Tiempo',
+    'features.time.desc': 'Establece límites de tiempo para diferentes sitios',
+    'features.password': 'Contraseña Parental',
+    'features.password.desc': 'Protege la configuración de cambios de los niños',
+    'features.stats': 'Estadísticas de Uso',
+    'features.stats.desc': 'Rastrea el tiempo gastado en diferentes sitios',
+    'features.cross': 'Multiplataforma',
+    'features.cross.desc': 'Funciona en todos los sistemas operativos populares',
+    'features.psychology': 'Impacto Psicológico Suave',
+    'features.psychology.desc': 'Reduce el atractivo sin bloquear el acceso',
+    'features.company': 'Modo Empresa',
+    'features.company.desc': 'Configuración centralizada para organizaciones',
+
+    // Funding
+    'funding.title': '¿Por qué estamos recaudando fondos?',
+    'funding.goal1': 'Completar versión de escritorio',
+    'funding.goal2': 'Crear aplicación móvil',
+    'funding.goal3': 'Lanzar extensiones de navegador',
+    'funding.goal4': 'Realizar marketing y pruebas',
+    'funding.goal5': 'Construir comunidad alrededor de la idea',
+    'funding.target': 'Meta: $50,000',
+    'funding.raised': '$11,500 recaudados • 23% de la meta',
+
+    // Join us
+    'join.title': '📢 ¿Cómo unirse?',
+    'join.subtitle': 'Conviértete en parte del movimiento por un equilibrio digital saludable',
+    'join.support.title': 'Apoya el proyecto',
+    'join.support.kickstarter': 'Apoyar en Kickstarter',
+    'join.support.team': 'Formar parte del equipo',
+    'join.contact.title': 'Mantente en contacto',
+    'join.contact.email': 'Tu email para actualizaciones',
+    'join.contact.share': 'Comparte la idea #GrayTrigger',
+    'join.message': 'Juntos podemos crear un mundo digital más saludable para todos',
+
+    // Privacy Policy
+    'privacy.title': 'Política de Privacidad',
+    'privacy.no_collection.title': 'Sin Recopilación de Datos',
+    'privacy.no_collection.desc': 'GrayTrigger no recopila, almacena ni transmite datos personales.',
+    'privacy.local_storage.title': 'Almacenamiento Local',
+    'privacy.local_storage.desc': 'Todas las configuraciones se almacenan localmente en tu navegador usando la API segura de Chrome.',
+    'privacy.no_tracking.title': 'Sin Seguimiento',
+    'privacy.no_tracking.desc': 'Sin analíticas, sin seguimiento, sin anuncios. Privacidad completa.',
+    'privacy.statement': 'GrayTrigger no recopila, almacena ni transmite datos personales. Todas las configuraciones se almacenan localmente en tu navegador usando la API segura de almacenamiento de Chrome. Sin analíticas, sin seguimiento, sin anuncios.',
+    'privacy.developed_by': 'Desarrollo por:',
+
+    // Footer
+    'footer.disclaimer': '📜 "Este es apoyo voluntario. No garantizamos un lanzamiento final, pero todos los fondos irán hacia realizar la idea."',
+    'footer.transparency': 'Creemos en la transparencia y honestidad con nuestra comunidad',
+    'footer.copyright': '© 2025 GrayTrigger. Todos los derechos reservados.',
+    'footer.privacy': 'Política de Privacidad',
+    'footer.terms': 'Términos de Uso',
+    'footer.contact': 'Contacto',
+
+    // Common
+    'common.premium': 'Premium',
+    'common.thanks': '¡Gracias por suscribirte!',
+
+    // Donation
+    'donate.title': 'Apoya el Proyecto',
+    'donate.subtitle': 'Ayúdanos a crear un mundo digital saludable',
+    'donate.description': 'Tu apoyo nos ayudará a completar el desarrollo de GrayTrigger y hacerlo disponible para todos',
+    'donate.select_amount': 'Selecciona Cantidad',
+    'donate.custom_amount': 'O ingresa tu cantidad:',
+    'donate.support_paypal': 'Apoyar vía PayPal',
+    'donate.benefits_title': 'Lo que Obtienes',
+    'donate.early_access': 'Acceso Temprano',
+    'donate.early_access_desc': 'Sé el primero en acceder a nuevas funciones',
+    'donate.team_thanks': 'Gratitud del Equipo',
+    'donate.team_thanks_desc': 'Tu nombre en la lista de agradecimientos',
+    'donate.development_impact': 'Impacto en el Desarrollo',
+    'donate.development_impact_desc': 'Ayuda a determinar el futuro del proyecto',
+    'donate.transparency': '100% transparencia: Todos los fondos van al desarrollo, pruebas y soporte del proyecto. Sin tarifas ocultas.',
+    'donate.thank_you': '¡Gracias!',
+    'donate.thank_you_message': '¡Tu apoyo es muy importante para nosotros. Juntos crearemos un mejor mundo digital!',
+    'donate.stats.raised': 'Recaudado',
+    'donate.stats.supporters': 'Partidarios',
+    'donate.stats.goal': 'Del Objetivo',
+  },
+
+  ru: {
+    // Header
+    'nav.what': 'Что это?',
+    'nav.features': 'Функции',
+    'nav.funding': 'Поддержка',
+    'nav.join': 'Присоединиться',
+    'nav.privacy': 'Конфиденциальность',
+
+    // Hero
+    'hero.title': 'GrayTrigger',
+    'hero.subtitle': 'меньше экрана, больше объятий.',
+    'hero.description': 'Автоматический черно-белый режим для YouTube, TikTok, Instagram и других сайтов. Помогает уменьшить зависимость от соцсетей — без блокировок, без принуждения.',
+    'hero.btn.support': 'Поддержать на Patreon',
+    'hero.btn.developer': 'Присоединиться как разработчик',
+    'hero.btn.demo': 'Посмотреть демо',
+    'hero.demo': 'Демо видео',
+
+    // What is it
+    'what.title': '🎯 Что это такое?',
+    'what.description': 'GrayTrigger — это приложение, которое автоматически переводит экран или отдельные сайты в черно-белый режим, когда вы открываете TikTok, Instagram, YouTube, Snapchat, X/Twitter, Facebook и т.д.',
+    'what.note': 'Это не блокировка. Это мягкое визуальное воздействие, которое снижает привлекательность контента и помогает сосредоточиться на реальной жизни.',
+
+    // For whom
+    'forwhom.title': '👨‍👩‍👧 Для кого?',
+    'forwhom.parents': 'Родители',
+    'forwhom.parents.desc': 'чтобы дети имели доступ ко всему, но сами не хотели залипать.',
+    'forwhom.companies': 'Компании и школы',
+    'forwhom.companies.desc': 'чтобы сотрудники и студенты меньше отвлекались.',
+    'forwhom.everyone': 'Каждый, кто хочет фокус и баланс',
+    'forwhom.everyone.desc': 'без жестких ограничений.',
+
+    // How it works
+    'how.title': '💡 Как это работает?',
+    'how.step1': 'Вы открываете сайт',
+    'how.step1.desc': '(например, TikTok или YouTube).',
+    'how.step2': 'GrayTrigger определяет активную вкладку',
+    'how.step2.desc': 'и распознает целевой сайт.',
+    'how.step3': 'Включается черно-белый режим',
+    'how.step3.desc': 'автоматически для всего экрана.',
+    'how.step4': 'Вы покидаете сайт',
+    'how.step4.desc': 'цвета возвращаются.',
+    'how.platforms': 'Работает на:',
+    'how.platforms.desc': 'Windows, macOS, браузерах.',
+    'how.mobile': 'Мобильная версия — в разработке.',
+    'how.video': 'Подробная демонстрация',
+
+    // Features
+    'features.title': '🔐 Функции',
+    'features.time': 'Планирование времени',
+    'features.time.desc': 'Устанавливайте лимиты времени для разных сайтов',
+    'features.password': 'Родительский пароль',
+    'features.password.desc': 'Защитите настройки от изменений детьми',
+    'features.stats': 'Статистика использования',
+    'features.stats.desc': 'Отслеживайте время, проведенное на разных сайтах',
+    'features.cross': 'Кроссплатформенность',
+    'features.cross.desc': 'Работает на всех популярных операционных системах',
+    'features.psychology': 'Мягкое психологическое воздействие',
+    'features.psychology.desc': 'Снижает привлекательность без блокировки доступа',
+    'features.company': 'Режим для компаний',
+    'features.company.desc': 'Централизованная настройка для организаций',
+
+    // Funding
+    'funding.title': 'Зачем мы собираем средства?',
+    'funding.goal1': 'Завершить десктопную версию',
+    'funding.goal2': 'Создать мобильное приложение',
+    'funding.goal3': 'Запустить браузерные расширения',
+    'funding.goal4': 'Провести маркетинг и тестирование',
+    'funding.goal5': 'Построить сообщество вокруг идеи',
+    'funding.target': 'Цель: $50,000',
+    'funding.raised': '$11,500 собрано • 23% от цели',
+
+    // Join us
+    'join.title': '📢 Как присоединиться?',
+    'join.subtitle': 'Станьте частью движения за здоровый цифровой баланс',
+    'join.support.title': 'Поддержите проект',
+    'join.support.kickstarter': 'Поддержать на Kickstarter',
+    'join.support.team': 'Стать частью команды',
+    'join.contact.title': 'Оставайтесь на связи',
+    'join.contact.email': 'Ваш email для обновлений',
+    'join.contact.share': 'Поделитесь идеей #GrayTrigger',
+    'join.message': 'Вместе мы можем создать более здоровый цифровой мир для всех',
+
+    // Privacy Policy
+    'privacy.title': 'Политика конфиденциальности',
+    'privacy.no_collection.title': 'Не собираем данные',
+    'privacy.no_collection.desc': 'GrayTrigger не собирает, не хранит и не передает никаких личных данных.',
+    'privacy.local_storage.title': 'Локальное хранение',
+    'privacy.local_storage.desc': 'Все настройки хранятся локально в вашем браузере через безопасный API Chrome.',
+    'privacy.no_tracking.title': 'Без отслеживания',
+    'privacy.no_tracking.desc': 'Никакой аналитики, отслеживания или рекламы. Полная конфиденциальность.',
+    'privacy.statement': 'GrayTrigger не собирает, не хранит и не передает никаких личных данных. Все настройки хранятся локально в вашем браузере через безопасный API хранения Chrome. Никакой аналитики, отслеживания или рекламы.',
+    'privacy.developed_by': 'Разработка:',
+
+    // Footer
+    'footer.disclaimer': '📜 "Это добровольная поддержка. Мы не гарантируем финальный релиз, но все средства пойдут на реализацию идеи."',
+    'footer.transparency': 'Мы верим в прозрачность и честность с нашим сообществом',
+    'footer.copyright': '© 2025 GrayTrigger. Все права защищены.',
+    'footer.privacy': 'Политика конфиденциальности',
+    'footer.terms': 'Условия использования',
+    'footer.contact': 'Контакты',
+
+    // Common
+    'common.premium': 'Премиум',
+    'common.thanks': 'Спасибо за подписку!',
+
+    // Donation
+    'donate.title': 'Поддержите проект',
+    'donate.subtitle': 'Помогите нам создать здоровый цифровой мир',
+    'donate.description': 'Ваша поддержка поможет нам завершить разработку GrayTrigger и сделать его доступным для всех',
+    'donate.select_amount': 'Выберите сумму',
+    'donate.custom_amount': 'Или введите свою сумму:',
+    'donate.support_paypal': 'Поддержать через PayPal',
+    'donate.benefits_title': 'Что вы получите',
+    'donate.early_access': 'Ранний доступ',
+    'donate.early_access_desc': 'Первыми получите доступ к новым функциям',
+    'donate.team_thanks': 'Благодарность команды',
+    'donate.team_thanks_desc': 'Ваше имя в списке благодарностей',
+    'donate.development_impact': 'Влияние на развитие',
+    'donate.development_impact_desc': 'Помогите определить будущее проекта',
+    'donate.transparency': '100% прозрачность: Все средства идут на разработку, тестирование и поддержку проекта. Никаких скрытых комиссий.',
+    'donate.thank_you': 'Спасибо!',
+    'donate.thank_you_message': 'Ваша поддержка очень важна для нас. Вместе мы создадим лучший цифровой мир!',
+    'donate.stats.raised': 'Собрано',
+    'donate.stats.supporters': 'Поддержавших',
+    'donate.stats.goal': 'От цели',
+  },
+
+  ja: {
+    // Header
+    'nav.what': 'これは何？',
+    'nav.features': '機能',
+    'nav.funding': 'サポート',
+    'nav.join': '参加する',
+    'nav.privacy': 'プライバシー',
+
+    // Hero
+    'hero.title': 'GrayTrigger',
+    'hero.subtitle': 'スクリーンを減らし、ハグを増やそう。',
+    'hero.description': 'YouTube、TikTok、Instagramなどのサイトの自動グレースケールモード。ブロックや強制なしに、ソーシャルメディア依存を減らすのに役立ちます。',
+    'hero.btn.support': 'Patreonでサポート',
+    'hero.btn.developer': '開発者として参加',
+    'hero.btn.demo': 'デモを見る',
+    'hero.demo': 'デモ動画',
+
+    // What is it
+    'what.title': '🎯 これは何ですか？',
+    'what.description': 'GrayTriggerは、TikTok、Instagram、YouTube、Snapchat、X/Twitter、Facebookなどを開いたときに、画面や特定のサイトを自動的にグレースケールモードに切り替えるアプリです。',
+    'what.note': 'これはブロックではありません。コンテンツの魅力を減らし、現実の生活に集中するのに役立つ穏やかな視覚的影響です。',
+
+    // For whom
+    'forwhom.title': '👨‍👩‍👧 誰のため？',
+    'forwhom.parents': '親',
+    'forwhom.parents.desc': '子供がすべてにアクセスできるが、夢中になりたくないように。',
+    'forwhom.companies': '企業と学校',
+    'forwhom.companies.desc': '従業員と学生の気が散ることを減らすため。',
+    'forwhom.everyone': '集中とバランスを求める人',
+    'forwhom.everyone.desc': '厳しい制限なしに。',
+
+    // How it works
+    'how.title': '💡 どのように動作しますか？',
+    'how.step1': 'サイトを開く',
+    'how.step1.desc': '（例：TikTokやYouTube）。',
+    'how.step2': 'GrayTriggerがアクティブなタブを検出',
+    'how.step2.desc': 'し、対象サイトを認識します。',
+    'how.step3': 'グレースケールモードがオンになる',
+    'how.step3.desc': '画面全体に自動的に。',
+    'how.step4': 'サイトを離れる',
+    'how.step4.desc': '色が戻ります。',
+    'how.platforms': '動作環境：',
+    'how.platforms.desc': 'Windows、macOS、ブラウザ。',
+    'how.mobile': 'モバイル版 — 開発中。',
+    'how.video': '詳細なデモンストレーション',
+
+    // Features
+    'features.title': '🔐 機能',
+    'features.time': '時間計画',
+    'features.time.desc': '異なるサイトの時間制限を設定',
+    'features.password': '保護者パスワード',
+    'features.password.desc': '子供による設定変更から保護',
+    'features.stats': '使用統計',
+    'features.stats.desc': '異なるサイトで費やした時間を追跡',
+    'features.cross': 'クロスプラットフォーム',
+    'features.cross.desc': 'すべての人気OSで動作',
+    'features.psychology': '穏やかな心理的影響',
+    'features.psychology.desc': 'アクセスをブロックせずに魅力を減らす',
+    'features.company': '企業モード',
+    'features.company.desc': '組織向けの集中設定',
+
+    // Funding
+    'funding.title': 'なぜ資金を調達しているのですか？',
+    'funding.goal1': 'デスクトップ版を完成',
+    'funding.goal2': 'モバイルアプリを作成',
+    'funding.goal3': 'ブラウザ拡張機能をリリース',
+    'funding.goal4': 'マーケティングとテストを実施',
+    'funding.goal5': 'アイデアを中心としたコミュニティを構築',
+    'funding.target': '目標：$50,000',
+    'funding.raised': '$11,500調達済み • 目標の23%',
+
+    // Join us
+    'join.title': '📢 参加方法は？',
+    'join.subtitle': '健康的なデジタルバランスのための運動の一部になろう',
+    'join.support.title': 'プロジェクトをサポート',
+    'join.support.kickstarter': 'Kickstarterでサポート',
+    'join.support.team': 'チームの一員になる',
+    'join.contact.title': '連絡を取り合う',
+    'join.contact.email': 'アップデート用のメール',
+    'join.contact.share': 'アイデアをシェア #GrayTrigger',
+    'join.message': '一緒により健康的なデジタル世界をみんなのために作りましょう',
+
+    // Privacy Policy
+    'privacy.title': 'プライバシーポリシー',
+    'privacy.no_collection.title': 'データ収集なし',
+    'privacy.no_collection.desc': 'GrayTriggerは個人データを収集、保存、送信しません。',
+    'privacy.local_storage.title': 'ローカルストレージ',
+    'privacy.local_storage.desc': 'すべての設定はChromeの安全なストレージAPIを使用してブラウザにローカル保存されます。',
+    'privacy.no_tracking.title': 'トラッキングなし',
+    'privacy.no_tracking.desc': 'アナリティクス、トラッキング、広告は一切ありません。完全なプライバシー。',
+    'privacy.statement': 'GrayTriggerは個人データを収集、保存、送信しません。すべての設定はChromeの安全なストレージAPIを使用してブラウザにローカル保存されます。アナリティクス、トラッキング、広告は一切ありません。',
+    'privacy.developed_by': '開発：',
+
+    // Footer
+    'footer.disclaimer': '📜 「これは自発的なサポートです。最終リリースは保証しませんが、すべての資金はアイデアの実現に使われます。」',
+    'footer.transparency': '私たちはコミュニティとの透明性と誠実さを信じています',
+    'footer.copyright': '© 2025 GrayTrigger. すべての権利予約。',
+    'footer.privacy': 'プライバシーポリシー',
+    'footer.terms': '利用規約',
+    'footer.contact': '連絡先',
+
+    // Common
+    'common.premium': 'プレミアム',
+    'common.thanks': 'ご登録ありがとうございます！',
+
+    // Donation
+    'donate.title': 'プロジェクトをサポート',
+    'donate.subtitle': '健康的なデジタル世界の創造を支援してください',
+    'donate.description': 'あなたのサポートがGrayTriggerの開発完了と、すべての人への提供を可能にします',
+    'donate.select_amount': '金額を選択',
+    'donate.custom_amount': 'または金額を入力:',
+    'donate.support_paypal': 'PayPalでサポート',
+    'donate.benefits_title': '得られるもの',
+    'donate.early_access': '早期アクセス',
+    'donate.early_access_desc': '新機能への最初のアクセス',
+    'donate.team_thanks': 'チームからの感謝',
+    'donate.team_thanks_desc': '謝辞リストにお名前を掲載',
+    'donate.development_impact': '開発への影響',
+    'donate.development_impact_desc': 'プロジェクトの未来を決定する手助け',
+    'donate.transparency': '100%透明性：すべての資金は開発、テスト、プロジェクトサポートに使われます。隠れた手数料はありません。',
+    'donate.thank_you': 'ありがとうございます！',
+    'donate.thank_you_message': 'あなたのサポートは私たちにとって非常に重要です。一緒により良いデジタル世界を作りましょう！',
+    'donate.stats.raised': '調達済み',
+    'donate.stats.supporters': 'サポーター',
+    'donate.stats.goal': '目標の',
+  },
+
+  fr: {
+    // Header
+    'nav.what': 'Qu\'est-ce que c\'est ?',
+    'nav.features': 'Fonctionnalités',
+    'nav.funding': 'Soutien',
+    'nav.join': 'Rejoindre',
+    'nav.privacy': 'Confidentialité',
+
+    // Hero
+    'hero.title': 'GrayTrigger',
+    'hero.subtitle': 'moins d\'écran, plus de câlins.',
+    'hero.description': 'Mode niveaux de gris automatique pour YouTube, TikTok, Instagram et autres sites. Aide à réduire la dépendance aux réseaux sociaux — sans blocage, sans contrainte.',
+    'hero.btn.support': 'Soutenir sur Patreon',
+    'hero.btn.developer': 'Rejoindre comme développeur',
+    'hero.btn.demo': 'Voir la démo',
+    'hero.demo': 'Vidéo démo',
+
+    // What is it
+    'what.title': '🎯 Qu\'est-ce que c\'est ?',
+    'what.description': 'GrayTrigger est une application qui bascule automatiquement votre écran ou des sites spécifiques en mode niveaux de gris lorsque vous ouvrez TikTok, Instagram, YouTube, Snapchat, X/Twitter, Facebook, etc.',
+    'what.note': 'Ce n\'est pas un blocage. C\'est une influence visuelle douce qui réduit l\'attractivité du contenu et aide à se concentrer sur la vraie vie.',
+
+    // For whom
+    'forwhom.title': '👨‍👩‍👧 Pour qui ?',
+    'forwhom.parents': 'Parents',
+    'forwhom.parents.desc': 'pour que les enfants aient accès à tout, mais ne veuillent pas rester collés.',
+    'forwhom.companies': 'Entreprises et écoles',
+    'forwhom.companies.desc': 'pour que les employés et étudiants soient moins distraits.',
+    'forwhom.everyone': 'Quiconque veut de la concentration et de l\'équilibre',
+    'forwhom.everyone.desc': 'sans restrictions sévères.',
+
+    // How it works
+    'how.title': '💡 Comment ça marche ?',
+    'how.step1': 'Vous ouvrez un site',
+    'how.step1.desc': '(par exemple, TikTok ou YouTube).',
+    'how.step2': 'GrayTrigger détecte l\'onglet actif',
+    'how.step2.desc': 'et reconnaît le site cible.',
+    'how.step3': 'Le mode niveaux de gris s\'active',
+    'how.step3.desc': 'automatiquement pour tout l\'écran.',
+    'how.step4': 'Vous quittez le site',
+    'how.step4.desc': 'les couleurs reviennent.',
+    'how.platforms': 'Fonctionne sur :',
+    'how.platforms.desc': 'Windows, macOS, navigateurs.',
+    'how.mobile': 'Version mobile — en développement.',
+    'how.video': 'Démonstration détaillée',
+
+    // Features
+    'features.title': '🔐 Fonctionnalités',
+    'features.time': 'Planification du temps',
+    'features.time.desc': 'Définissez des limites de temps pour différents sites',
+    'features.password': 'Mot de passe parental',
+    'features.password.desc': 'Protégez les paramètres des modifications des enfants',
+    'features.stats': 'Statistiques d\'utilisation',
+    'features.stats.desc': 'Suivez le temps passé sur différents sites',
+    'features.cross': 'Multiplateforme',
+    'features.cross.desc': 'Fonctionne sur tous les systèmes d\'exploitation populaires',
+    'features.psychology': 'Impact psychologique doux',
+    'features.psychology.desc': 'Réduit l\'attractivité sans bloquer l\'accès',
+    'features.company': 'Mode entreprise',
+    'features.company.desc': 'Paramètres centralisés pour les organisations',
+
+    // Funding
+    'funding.title': 'Pourquoi collectons-nous des fonds ?',
+    'funding.goal1': 'Terminer la version desktop',
+    'funding.goal2': 'Créer l\'application mobile',
+    'funding.goal3': 'Lancer les extensions de navigateur',
+    'funding.goal4': 'Effectuer le marketing et les tests',
+    'funding.goal5': 'Construire une communauté autour de l\'idée',
+    'funding.target': 'Objectif : $50,000',
+    'funding.raised': '$11,500 collectés • 23% de l\'objectif',
+
+    // Join us
+    'join.title': '📢 Comment rejoindre ?',
+    'join.subtitle': 'Devenez partie du mouvement pour un équilibre numérique sain',
+    'join.support.title': 'Soutenez le projet',
+    'join.support.kickstarter': 'Soutenir sur Kickstarter',
+    'join.support.team': 'Faire partie de l\'équipe',
+    'join.contact.title': 'Restez en contact',
+    'join.contact.email': 'Votre email pour les mises à jour',
+    'join.contact.share': 'Partagez l\'idée #GrayTrigger',
+    'join.message': 'Ensemble, nous pouvons créer un monde numérique plus sain pour tous',
+
+    // Privacy Policy
+    'privacy.title': 'Politique de Confidentialité',
+    'privacy.no_collection.title': 'Aucune Collecte de Données',
+    'privacy.no_collection.desc': 'GrayTrigger ne collecte, ne stocke ni ne transmet aucune donnée personnelle.',
+    'privacy.local_storage.title': 'Stockage Local',
+    'privacy.local_storage.desc': 'Tous les paramètres sont stockés localement dans votre navigateur via l\'API de stockage sécurisé de Chrome.',
+    'privacy.no_tracking.title': 'Aucun Suivi',
+    'privacy.no_tracking.desc': 'Aucune analytique, aucun suivi, aucune publicité. Confidentialité complète.',
+    'privacy.statement': 'GrayTrigger ne collecte, ne stocke ni ne transmet aucune donnée personnelle. Tous les paramètres sont stockés localement dans votre navigateur via l\'API de stockage sécurisé de Chrome. Aucune analytique, aucun suivi, aucune publicité.',
+    'privacy.developed_by': 'Développement par :',
+
+    // Footer
+    'footer.disclaimer': '📜 "Ceci est un soutien volontaire. Nous ne garantissons pas une version finale, mais tous les fonds iront vers la réalisation de l\'idée."',
+    'footer.transparency': 'Nous croyons en la transparence et l\'honnêteté avec notre communauté',
+    'footer.copyright': '© 2025 GrayTrigger. Tous droits réservés.',
+    'footer.privacy': 'Politique de confidentialité',
+    'footer.terms': 'Conditions d\'utilisation',
+    'footer.contact': 'Contact',
+
+    // Common
+    'common.premium': 'Premium',
+    'common.thanks': 'Merci de vous être abonné !',
+
+    // Donation
+    'donate.title': 'Soutenez le Projet',
+    'donate.subtitle': 'Aidez-nous à créer un monde numérique sain',
+    'donate.description': 'Votre soutien nous aidera à terminer le développement de GrayTrigger et à le rendre disponible pour tous',
+    'donate.select_amount': 'Sélectionnez le Montant',
+    'donate.custom_amount': 'Ou entrez votre montant:',
+    'donate.support_paypal': 'Soutenir via PayPal',
+    'donate.benefits_title': 'Ce que Vous Obtenez',
+    'donate.early_access': 'Accès Anticipé',
+    'donate.early_access_desc': 'Soyez le premier à accéder aux nouvelles fonctionnalités',
+    'donate.team_thanks': 'Gratitude de l\'Équipe',
+    'donate.team_thanks_desc': 'Votre nom dans la liste des remerciements',
+    'donate.development_impact': 'Impact sur le Développement',
+    'donate.development_impact_desc': 'Aidez à déterminer l\'avenir du projet',
+    'donate.transparency': '100% transparence : Tous les fonds vont au développement, aux tests et au support du projet. Aucun frais caché.',
+    'donate.thank_you': 'Merci !',
+    'donate.thank_you_message': 'Votre soutien est très important pour nous. Ensemble, nous créerons un meilleur monde numérique !',
+    'donate.stats.raised': 'Collecté',
+    'donate.stats.supporters': 'Supporters',
+    'donate.stats.goal': 'De l\'Objectif',
+  },
+
+  ar: {
+    // Header
+    'nav.what': 'ما هذا؟',
+    'nav.features': 'الميزات',
+    'nav.funding': 'الدعم',
+    'nav.join': 'انضم إلينا',
+    'nav.privacy': 'الخصوصية',
+
+    // Hero
+    'hero.title': 'GrayTrigger',
+    'hero.subtitle': 'شاشة أقل، عناق أكثر.',
+    'hero.description': 'وضع الرمادي التلقائي لـ YouTube و TikTok و Instagram ومواقع أخرى. يساعد في تقليل إدمان وسائل التواصل الاجتماعي — بدون حجب، بدون إجبار.',
+    'hero.btn.support': 'ادعم على Patreon',
+    'hero.btn.developer': 'انضم كمطور',
+    'hero.btn.demo': 'شاهد العرض التوضيحي',
+    'hero.demo': 'فيديو توضيحي',
+
+    // What is it
+    'what.title': '🎯 ما هذا؟',
+    'what.description': 'GrayTrigger هو تطبيق يحول شاشتك أو مواقع محددة تلقائياً إلى وضع الرمادي عندما تفتح TikTok أو Instagram أو YouTube أو Snapchat أو X/Twitter أو Facebook، إلخ.',
+    'what.note': 'هذا ليس حجباً. إنه تأثير بصري لطيف يقلل من جاذبية المحتوى ويساعد على التركيز على الحياة الحقيقية.',
+
+    // For whom
+    'forwhom.title': '👨‍👩‍👧 لمن؟',
+    'forwhom.parents': 'الآباء',
+    'forwhom.parents.desc': 'حتى يتمكن الأطفال من الوصول إلى كل شيء، لكن لا يريدون الانغماس.',
+    'forwhom.companies': 'الشركات والمدارس',
+    'forwhom.companies.desc': 'حتى يقل تشتت الموظفين والطلاب.',
+    'forwhom.everyone': 'أي شخص يريد التركيز والتوازن',
+    'forwhom.everyone.desc': 'بدون قيود صارمة.',
+
+    // How it works
+    'how.title': '💡 كيف يعمل؟',
+    'how.step1': 'تفتح موقعاً',
+    'how.step1.desc': '(مثل TikTok أو YouTube).',
+    'how.step2': 'GrayTrigger يكتشف التبويب النشط',
+    'how.step2.desc': 'ويتعرف على الموقع المستهدف.',
+    'how.step3': 'يتم تشغيل الوضع الرمادي',
+    'how.step3.desc': 'تلقائياً للشاشة بأكملها.',
+    'how.step4': 'تغادر الموقع',
+    'how.step4.desc': 'تعود الألوان.',
+    'how.platforms': 'يعمل على:',
+    'how.platforms.desc': 'Windows، macOS، المتصفحات.',
+    'how.mobile': 'النسخة المحمولة — قيد التطوير.',
+    'how.video': 'عرض توضيحي مفصل',
+
+    // Features
+    'features.title': '🔐 الميزات',
+    'features.time': 'تخطيط الوقت',
+    'features.time.desc': 'حدد حدود زمنية لمواقع مختلفة',
+    'features.password': 'كلمة مرور الوالدين',
+    'features.password.desc': 'احم الإعدادات من تغييرات الأطفال',
+    'features.stats': 'إحصائيات الاستخدام',
+    'features.stats.desc': 'تتبع الوقت المقضي على مواقع مختلفة',
+    'features.cross': 'متعدد المنصات',
+    'features.cross.desc': 'يعمل على جميع أنظمة التشغيل الشائعة',
+    'features.psychology': 'تأثير نفسي لطيف',
+    'features.psychology.desc': 'يقلل الجاذبية دون حجب الوصول',
+    'features.company': 'وضع الشركة',
+    'features.company.desc': 'إعدادات مركزية للمؤسسات',
+
+    // Funding
+    'funding.title': 'لماذا نجمع الأموال؟',
+    'funding.goal1': 'إكمال نسخة سطح المكتب',
+    'funding.goal2': 'إنشاء تطبيق محمول',
+    'funding.goal3': 'إطلاق امتدادات المتصفح',
+    'funding.goal4': 'إجراء التسويق والاختبار',
+    'funding.goal5': 'بناء مجتمع حول الفكرة',
+    'funding.target': 'الهدف: $50,000',
+    'funding.raised': 'تم جمع $11,500 • 23% من الهدف',
+
+    // Join us
+    'join.title': '📢 كيف تنضم؟',
+    'join.subtitle': 'كن جزءاً من الحركة من أجل توازن رقمي صحي',
+    'join.support.title': 'ادعم المشروع',
+    'join.support.kickstarter': 'ادعم على Kickstarter',
+    'join.support.team': 'كن جزءاً من الفريق',
+    'join.contact.title': 'ابق على تواصل',
+    'join.contact.email': 'بريدك الإلكتروني للتحديثات',
+    'join.contact.share': 'شارك الفكرة #GrayTrigger',
+    'join.message': 'معاً يمكننا إنشاء عالم رقمي أكثر صحة للجميع',
+
+    // Privacy Policy
+    'privacy.title': 'سياسة الخصوصية',
+    'privacy.no_collection.title': 'لا نجمع البيانات',
+    'privacy.no_collection.desc': 'GrayTrigger لا يجمع أو يخزن أو ينقل أي بيانات شخصية.',
+    'privacy.local_storage.title': 'التخزين المحلي',
+    'privacy.local_storage.desc': 'جميع الإعدادات مخزنة محلياً في متصفحك باستخدام API التخزين الآمن في Chrome.',
+    'privacy.no_tracking.title': 'بدون تتبع',
+    'privacy.no_tracking.desc': 'لا توجد تحليلات أو تتبع أو إعلانات. خصوصية كاملة.',
+    'privacy.statement': 'GrayTrigger لا يجمع أو يخزن أو ينقل أي بيانات شخصية. جميع الإعدادات مخزنة محلياً في متصفحك باستخدام API التخزين الآمن في Chrome. لا توجد تحليلات أو تتبع أو إعلانات.',
+    'privacy.developed_by': 'التطوير بواسطة:',
+
+    // Footer
+    'footer.disclaimer': '📜 "هذا دعم طوعي. لا نضمن إصداراً نهائياً، لكن جميع الأموال ستذهب لتحقيق الفكرة."',
+    'footer.transparency': 'نؤمن بالشفافية والصدق مع مجتمعنا',
+    'footer.copyright': '© 2025 GrayTrigger. جميع الحقوق محفوظة.',
+    'footer.privacy': 'سياسة الخصوصية',
+    'footer.terms': 'شروط الاستخدام',
+    'footer.contact': 'اتصل بنا',
+
+    // Common
+    'common.premium': 'مميز',
+    'common.thanks': 'شكراً لك على الاشتراك!',
+
+    // Donation
+    'donate.title': 'ادعم المشروع',
+    'donate.subtitle': 'ساعدنا في إنشاء عالم رقمي صحي',
+    'donate.description': 'دعمك سيساعدنا في إكمال تطوير GrayTrigger وجعله متاحاً للجميع',
+    'donate.select_amount': 'اختر المبلغ',
+    'donate.custom_amount': 'أو أدخل مبلغك:',
+    'donate.support_paypal': 'ادعم عبر PayPal',
+    'donate.benefits_title': 'ما ستحصل عليه',
+    'donate.early_access': 'وصول مبكر',
+    'donate.early_access_desc': 'كن أول من يحصل على الميزات الجديدة',
+    'donate.team_thanks': 'شكر الفريق',
+    'donate.team_thanks_desc': 'اسمك في قائمة الشكر',
+    'donate.development_impact': 'تأثير على التطوير',
+    'donate.development_impact_desc': 'ساعد في تحديد مستقبل المشروع',
+    'donate.transparency': '100% شفافية: جميع الأموال تذهب للتطوير والاختبار ودعم المشروع. لا توجد رسوم مخفية.',
+    'donate.thank_you': 'شكراً لك!',
+    'donate.thank_you_message': 'دعمك مهم جداً بالنسبة لنا. معاً سننشئ عالماً رقمياً أفضل!',
+    'donate.stats.raised': 'تم جمع',
+    'donate.stats.supporters': 'داعمين',
+    'donate.stats.goal': 'من الهدف',
+  },
+
+  hi: {
+    // Header
+    'nav.what': 'यह क्या है?',
+    'nav.features': 'विशेषताएं',
+    'nav.funding': 'समर्थन',
+    'nav.join': 'शामिल हों',
+    'nav.privacy': 'गोपनीयता',
+
+    // Hero
+    'hero.title': 'GrayTrigger',
+    'hero.subtitle': 'कम स्क्रीन, अधिक गले मिलना।',
+    'hero.description': 'YouTube, TikTok, Instagram और अन्य साइटों के लिए स्वचालित ग्रेस्केल मोड। सोशल मीडिया की लत कम करने में मदद करता है — बिना ब्लॉक किए, बिना मजबूर किए।',
+    'hero.btn.support': 'Patreon पर समर्थन करें',
+    'hero.btn.developer': 'डेवलपर के रूप में शामिल हों',
+    'hero.btn.demo': 'डेमो देखें',
+    'hero.demo': 'डेमो वीडियो',
+
+    // What is it
+    'what.title': '🎯 यह क्या है?',
+    'what.description': 'GrayTrigger एक ऐप है जो आपकी स्क्रीन या विशिष्ट साइटों को स्वचालित रूप से ग्रेस्केल मोड में बदल देता है जब आप TikTok, Instagram, YouTube, Snapchat, X/Twitter, Facebook आदि खोलते हैं।',
+    'what.note': 'यह ब्लॉकिंग नहीं है। यह एक कोमल दृश्य प्रभाव है जो सामग्री की आकर्षकता को कम करता है और वास्तविक जीवन पर ध्यान केंद्रित करने में मदद करता है।',
+
+    // For whom
+    'forwhom.title': '👨‍👩‍👧 किसके लिए?',
+    'forwhom.parents': 'माता-पिता',
+    'forwhom.parents.desc': 'ताकि बच्चों की सब कुछ तक पहुंच हो, लेकिन वे फंसना न चाहें।',
+    'forwhom.companies': 'कंपनियां और स्कूल',
+    'forwhom.companies.desc': 'ताकि कर्मचारी और छात्र कम विचलित हों।',
+    'forwhom.everyone': 'कोई भी जो फोकस और संतुलन चाहता है',
+    'forwhom.everyone.desc': 'कठोर प्रतिबंधों के बिना।',
+
+    // How it works
+    'how.title': '💡 यह कैसे काम करता है?',
+    'how.step1': 'आप एक साइट खोलते हैं',
+    'how.step1.desc': '(उदाहरण के लिए, TikTok या YouTube)।',
+    'how.step2': 'GrayTrigger सक्रिय टैब का पता लगाता है',
+    'how.step2.desc': 'और लक्षित साइट को पहचानता है।',
+    'how.step3': 'ग्रेस्केल मोड चालू हो जाता है',
+    'how.step3.desc': 'पूरी स्क्रीन के लिए स्वचालित रूप से।',
+    'how.step4': 'आप साइट छोड़ते हैं',
+    'how.step4.desc': 'रंग वापस आ जाते हैं।',
+    'how.platforms': 'काम करता है:',
+    'how.platforms.desc': 'Windows, macOS, ब्राउज़र पर।',
+    'how.mobile': 'मोबाइल संस्करण — विकास में।',
+    'how.video': 'विस्तृत प्रदर्शन',
+
+    // Features
+    'features.title': '🔐 विशेषताएं',
+    'features.time': 'समय योजना',
+    'features.time.desc': 'विभिन्न साइटों के लिए समय सीमा निर्धारित करें',
+    'features.password': 'अभिभावकीय पासवर्ड',
+    'features.password.desc': 'बच्चों के बदलाव से सेटिंग्स को सुरक्षित रखें',
+    'features.stats': 'उपयोग आंकड़े',
+    'features.stats.desc': 'विभिन्न साइटों पर बिताए गए समय को ट्रैक करें',
+    'features.cross': 'क्रॉस-प्लेटफॉर्म',
+    'features.cross.desc': 'सभी लोकप्रिय ऑपरेटिंग सिस्टम पर काम करता है',
+    'features.psychology': 'कोमल मनोवैज्ञानिक प्रभाव',
+    'features.psychology.desc': 'पहुंच को ब्लॉक किए बिना आकर्षण कम करता है',
+    'features.company': 'कंपनी मोड',
+    'features.company.desc': 'संगठनों के लिए केंद्रीकृत सेटिंग्स',
+
+    // Funding
+    'funding.title': 'हम फंड क्यों जुटा रहे हैं?',
+    'funding.goal1': 'डेस्कटॉप संस्करण पूरा करें',
+    'funding.goal2': 'मोबाइल ऐप बनाएं',
+    'funding.goal3': 'ब्राउज़र एक्सटेंशन लॉन्च करें',
+    'funding.goal4': 'मार्केटिंग और परीक्षण करें',
+    'funding.goal5': 'विचार के आसपास समुदाय बनाएं',
+    'funding.target': 'लक्ष्य: $50,000',
+    'funding.raised': '$11,500 जुटाया गया • लक्ष्य का 23%',
+
+    // Join us
+    'join.title': '📢 कैसे शामिल हों?',
+    'join.subtitle': 'स्वस्थ डिजिटल संतुलन के लिए आंदोलन का हिस्सा बनें',
+    'join.support.title': 'प्रोजेक्ट का समर्थन करें',
+    'join.support.kickstarter': 'Kickstarter पर समर्थन करें',
+    'join.support.team': 'टीम का हिस्सा बनें',
+    'join.contact.title': 'संपर्क में रहें',
+    'join.contact.email': 'अपडेट के लिए आपका ईमेल',
+    'join.contact.share': 'विचार साझा करें #GrayTrigger',
+    'join.message': 'मिलकर हम सभी के लिए एक स्वस्थ डिजिटल दुनिया बना सकते हैं',
+
+    // Privacy Policy
+    'privacy.title': 'गोपनीयता नीति',
+    'privacy.no_collection.title': 'डेटा संग्रह नहीं',
+    'privacy.no_collection.desc': 'GrayTrigger कोई व्यक्तिगत डेटा एकत्र, संग्रहीत या स्थानांतरित नहीं करता।',
+    'privacy.local_storage.title': 'स्थानीय भंडारण',
+    'privacy.local_storage.desc': 'सभी सेटिंग्स Chrome के सुरक्षित स्टोरेज API का उपयोग करके आपके ब्राउज़र में स्थानीय रूप से संग्रहीत हैं।',
+    'privacy.no_tracking.title': 'कोई ट्रैकिंग नहीं',
+    'privacy.no_tracking.desc': 'कोई एनालिटिक्स, ट्रैकिंग या विज्ञापन नहीं। पूर्ण गोपनीयता।',
+    'privacy.statement': 'GrayTrigger कोई व्यक्तिगत डेटा एकत्र, संग्रहीत या स्थानांतरित नहीं करता। सभी सेटिंग्स Chrome के सुरक्षित स्टोरेज API का उपयोग करके आपके ब्राउज़र में स्थानीय रूप से संग्रहीत हैं। कोई एनालिटिक्स, ट्रैकिंग या विज्ञापन नहीं।',
+    'privacy.developed_by': 'विकास:',
+
+    // Footer
+    'footer.disclaimer': '📜 "यह स्वैच्छिक समर्थन है। हम अंतिम रिलीज़ की गारंटी नहीं देते, लेकिन सभी फंड विचार को साकार करने में जाएंगे।"',
+    'footer.transparency': 'हम अपने समुदाय के साथ पारदर्शिता और ईमानदारी में विश्वास करते हैं',
+    'footer.copyright': '© 2025 GrayTrigger. सभी अधिकार सुरक्षित।',
+    'footer.privacy': 'गोपनीयता नीति',
+    'footer.terms': 'उपयोग की शर्तें',
+    'footer.contact': 'संपर्क',
+
+    // Common
+    'common.premium': 'प्रीमियम',
+    'common.thanks': 'सब्सक्राइब करने के लिए धन्यवाद!',
+
+    // Donation
+    'donate.title': 'प्रोजेक्ट का समर्थन करें',
+    'donate.subtitle': 'एक स्वस्थ डिजिटल दुनिया बनाने में हमारी मदद करें',
+    'donate.description': 'आपका समर्थन हमें GrayTrigger का विकास पूरा करने और इसे सभी के लिए उपलब्ध कराने में मदद करेगा',
+    'donate.select_amount': 'राशि चुनें',
+    'donate.custom_amount': 'या अपनी राशि दर्ज करें:',
+    'donate.support_paypal': 'PayPal के माध्यम से समर्थन करें',
+    'donate.benefits_title': 'आपको क्या मिलेगा',
+    'donate.early_access': 'प्रारंभिक पहुंच',
+    'donate.early_access_desc': 'नई सुविधाओं तक पहली पहुंच पाएं',
+    'donate.team_thanks': 'टीम का आभार',
+    'donate.team_thanks_desc': 'आभार सूची में आपका नाम',
+    'donate.development_impact': 'विकास पर प्रभाव',
+    'donate.development_impact_desc': 'प्रोजेक्ट के भविष्य को निर्धारित करने में मदद करें',
+    'donate.transparency': '100% पारदर्शिता: सभी फंड विकास, परीक्षण और प्रोजेक्ट समर्थन में जाते हैं। कोई छुपी हुई फीस नहीं।',
+    'donate.thank_you': 'धन्यवाद!',
+    'donate.thank_you_message': 'आपका समर्थन हमारे लिए बहुत महत्वपूर्ण है। मिलकर हम एक बेहतर डिजिटल दुनिया बनाएंगे!',
+    'donate.stats.raised': 'जुटाया गया',
+    'donate.stats.supporters': 'समर्थक',
+    'donate.stats.goal': 'लक्ष्य का',
+  }
+};
