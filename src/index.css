@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* RTL text support - only for text content, layout stays LTR */
+/* Don't apply RTL to centered or LTR-kept elements */
+.rtl-text p:not(.text-center):not(.rtl-keep-ltr),
+.rtl-text h1:not(.text-center):not(.rtl-keep-ltr),
+.rtl-text h2:not(.text-center):not(.rtl-keep-ltr),
+.rtl-text h3:not(.text-center):not(.rtl-keep-ltr),
+.rtl-text h4:not(.text-center):not(.rtl-keep-ltr),
+.rtl-text h5:not(.text-center):not(.rtl-keep-ltr),
+.rtl-text h6:not(.text-center):not(.rtl-keep-ltr),
+.rtl-text span:not([class*="flex"]):not([class*="grid"]):not([class*="bg-gradient"]):not([class*="text-transparent"]):not(.text-center):not(.rtl-keep-ltr),
+.rtl-text button:not([class*="flex"]):not([class*="grid"]):not(.text-center):not(.rtl-keep-ltr),
+.rtl-text a:not([class*="flex"]):not([class*="grid"]):not(.text-center):not(.rtl-keep-ltr),
+.rtl-text div:not([class*="flex"]):not([class*="grid"]):not([class*="absolute"]):not([class*="fixed"]):not([class*="relative"]):not([class*="bg-gradient"]):not([class*="text-transparent"]):not(.text-center):not(.rtl-keep-ltr) {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: embed;
+}
+
+/* Keep all layout elements LTR - including icons, buttons, navigation */
+.rtl-text nav,
+.rtl-text header,
+.rtl-text section,
+.rtl-text footer,
+.rtl-text [class*="flex"],
+.rtl-text [class*="grid"],
+.rtl-text [class*="absolute"],
+.rtl-text [class*="fixed"],
+.rtl-text [class*="relative"],
+.rtl-text [class*="container"],
+.rtl-text [class*="mx-auto"],
+.rtl-text [class*="bg-gradient"],
+.rtl-text [class*="text-transparent"],
+.rtl-text svg,
+.rtl-text [class*="w-"],
+.rtl-text [class*="h-"],
+.rtl-text [class*="rounded"],
+.rtl-text [class*="border"],
+.rtl-text [class*="shadow"] {
+  direction: ltr !important;
+}
+
+/* Keep site title and logo LTR - preserve text-align */
+.rtl-keep-ltr {
+  direction: ltr !important;
+  unicode-bidi: embed;
+}
+
+.rtl-text .rtl-keep-ltr {
+  direction: ltr !important;
+}
+
+/* Preserve text-center alignment for rtl-keep-ltr elements */
+.rtl-keep-ltr.text-center,
+.rtl-text .rtl-keep-ltr.text-center {
+  text-align: center !important;
+}
+
+/* Keep site title and logo LTR - preserve alignment */
+.rtl-text [class*="font-bold"][class*="text-xl"],
+.rtl-text [class*="font-bold"][class*="text-2xl"],
+.rtl-text [class*="font-bold"][class*="text-3xl"],
+.rtl-text [class*="font-bold"][class*="text-4xl"],
+.rtl-text [class*="font-bold"][class*="text-5xl"],
+.rtl-text [class*="font-bold"][class*="text-6xl"],
+.rtl-text [class*="font-bold"][class*="text-7xl"],
+.rtl-text [class*="font-bold"][class*="text-8xl"] {
+  direction: ltr !important;
+}
+
+/* Keep icons and buttons LTR */
+.rtl-text button,
+.rtl-text [role="button"],
+.rtl-text a[href] {
+  direction: ltr !important;
+}
+
+/* All text-center elements should stay centered and LTR */
+.rtl-text .text-center,
+.rtl-text [class*="text-center"],
+.rtl-text [class*="text-center"] * {
+  text-align: center !important;
+  direction: ltr !important;
+}
+
+/* Keep all centered content LTR */
+.rtl-text [class*="mx-auto"],
+.rtl-text [class*="mx-auto"] * {
+  direction: ltr !important;
+}
+
+/* Ensure all headings in centered containers stay centered */
+.rtl-text .text-center h1,
+.rtl-text .text-center h2,
+.rtl-text .text-center h3,
+.rtl-text .text-center h4,
+.rtl-text .text-center h5,
+.rtl-text .text-center h6 {
+  text-align: center !important;
+  direction: ltr !important;
+}
