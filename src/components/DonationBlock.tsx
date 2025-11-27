@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Heart, Coffee, Zap, Star, Gift } from 'lucide-react';
+import { Coffee, Zap, Star, Gift, Building2, TrendingUp } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 
 interface DonationBlockProps {
@@ -14,8 +14,8 @@ export const DonationBlock: React.FC<DonationBlockProps> = ({ isDark }) => {
   
   const predefinedAmounts = [
     { amount: 3, icon: Coffee, label: t('donate.amounts.coffee'), color: 'from-amber-500 to-orange-500' },
-    { amount: 10, icon: Heart, label: t('donate.amounts.development'), color: 'from-pink-500 to-red-500' },
-    { amount: 25, icon: Star, label: t('donate.amounts.premium'), color: 'from-purple-500 to-indigo-500' },
+    { amount: 10, icon: TrendingUp, label: t('donate.amounts.development'), color: 'from-blue-500 to-cyan-500' },
+    { amount: 25, icon: Building2, label: t('donate.amounts.premium'), color: 'from-indigo-500 to-purple-500' },
     { amount: 0, icon: Gift, label: t('donate.amounts.custom'), color: 'from-green-500 to-emerald-500' }
   ];
 
@@ -47,53 +47,39 @@ export const DonationBlock: React.FC<DonationBlockProps> = ({ isDark }) => {
 
   if (showThankYou) {
     return (
-      <div className={`relative p-8 rounded-3xl ${themeClasses.background} border ${themeClasses.border} backdrop-blur-sm text-center`}>
-        <div className="animate-bounce mb-4">
-          <Heart className="w-16 h-16 mx-auto text-pink-500" />
+      <div className={`relative p-8 rounded-2xl ${themeClasses.background} border ${themeClasses.border} backdrop-blur-sm text-center animate-fade-in`}>
+        <div className="mb-4">
+          <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center">
+            <Zap className="w-8 h-8 text-white" />
+          </div>
         </div>
         <h3 className={`text-2xl font-bold ${themeClasses.text} mb-2`}>
-          {t('donate.thankYou')}
+          {t('donate.thankYou').replace('💜', '')}
         </h3>
         <p className={themeClasses.textSecondary}>
-          {t('donate.thankYouMessage')}
+          {t('donate.thankYouMessage').replace('💜', '')}
         </p>
       </div>
     );
   }
 
   return (
-    <div className={`relative p-8 rounded-3xl ${themeClasses.background} border ${themeClasses.border} backdrop-blur-sm overflow-hidden`}>
+    <div className={`relative p-8 sm:p-10 rounded-2xl ${themeClasses.background} border ${themeClasses.border} backdrop-blur-sm overflow-hidden`}>
       {/* Decorative background */}
-      <div className={`absolute inset-0 ${isDark ? 'bg-gradient-to-br from-purple-500/5 to-pink-500/5' : 'bg-gradient-to-br from-purple-100/50 to-pink-100/50'}`}></div>
-      
-      {/* Floating hearts animation */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(6)].map((_, i) => (
-          <Heart
-            key={i}
-            className={`absolute w-4 h-4 text-pink-400/30 animate-pulse`}
-            style={{
-              left: `${20 + i * 15}%`,
-              top: `${10 + (i % 2) * 70}%`,
-              animationDelay: `${i * 0.5}s`,
-              animationDuration: `${2 + i * 0.3}s`
-            }}
-          />
-        ))}
-      </div>
+      <div className={`absolute inset-0 ${isDark ? 'bg-gradient-to-br from-blue-500/5 to-cyan-500/5' : 'bg-gradient-to-br from-blue-100/50 to-cyan-100/50'}`}></div>
 
       <div className="relative z-10">
         {/* Header */}
-        <div className="text-center mb-8">
-          <div className="flex items-center justify-center mb-4">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 flex items-center justify-center mr-3">
-              <Heart className="w-6 h-6 text-white" />
+        <div className="text-center mb-10">
+          <div className="flex items-center justify-center mb-6">
+            <div className="w-14 h-14 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center mr-4 shadow-lg">
+              <Building2 className="w-7 h-7 text-white" />
             </div>
-            <h3 className={`text-2xl sm:text-3xl font-bold bg-gradient-to-r ${isDark ? 'from-pink-400 to-purple-400' : 'from-pink-600 to-purple-600'} bg-clip-text text-transparent rtl-keep-ltr text-center break-words`}>
+            <h3 className={`text-2xl sm:text-3xl font-bold ${themeClasses.text} rtl-keep-ltr text-center break-words`}>
               {t('donate.title')}
             </h3>
           </div>
-          <p className={`text-lg sm:text-xl ${themeClasses.textSecondary} mb-4 break-words px-2`}>
+          <p className={`text-lg sm:text-xl ${themeClasses.textSecondary} mb-6 break-words px-2`}>
             {t('donate.subtitle')}
           </p>
         </div>
@@ -107,20 +93,21 @@ export const DonationBlock: React.FC<DonationBlockProps> = ({ isDark }) => {
                 setSelectedAmount(item.amount);
                 if (item.amount > 0) handleDonate(item.amount);
               }}
-              className={`group relative p-4 sm:p-6 rounded-2xl ${themeClasses.cardBg} border ${
-                selectedAmount === item.amount ? 'border-purple-500' : themeClasses.border
-              } ${themeClasses.cardHover} transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg overflow-hidden`}
+              className={`group relative p-4 sm:p-6 rounded-xl ${themeClasses.cardBg} border ${
+                selectedAmount === item.amount ? 'border-blue-500' : themeClasses.border
+              } ${themeClasses.cardHover} transition-all duration-300 hover:opacity-90 hover:shadow-lg overflow-hidden animate-fade-in-up`}
+              style={{ animationDelay: `${0.1 * index}s` }}
             >
-              <div className={`w-12 h-12 rounded-xl bg-gradient-to-r ${item.color} p-3 mb-4 mx-auto group-hover:scale-110 transition-transform duration-300`}>
+              <div className={`w-12 h-12 rounded-xl bg-gradient-to-r ${item.color} p-3 mb-4 mx-auto group-hover:opacity-90 transition-opacity duration-300`}>
                 <item.icon className="w-6 h-6 text-white" />
               </div>
               <div className="text-center min-h-[60px] flex flex-col justify-center">
                 {item.amount > 0 && (
-                  <div className={`text-xl sm:text-2xl font-bold ${themeClasses.text} mb-1`}>
+                  <div className={`text-xl sm:text-2xl font-bold ${themeClasses.text} mb-2`}>
                     ${item.amount}
                   </div>
                 )}
-                <div className={`text-xs sm:text-sm ${themeClasses.textSecondary} break-words px-1 line-clamp-2`}>
+                <div className={`text-xs sm:text-sm font-medium ${themeClasses.textSecondary} break-words px-1 line-clamp-2`}>
                   {item.label}
                 </div>
               </div>
@@ -130,7 +117,7 @@ export const DonationBlock: React.FC<DonationBlockProps> = ({ isDark }) => {
 
         {/* Custom amount input */}
         {selectedAmount === 0 && (
-          <div className="mb-8 animate-in slide-in-from-top-2 duration-300">
+          <div className="mb-8 animate-fade-in-up">
             <div className="flex items-center justify-center space-x-4">
               <div className="relative">
                 <span className={`absolute left-3 top-1/2 transform -translate-y-1/2 ${themeClasses.textMuted}`}>$</span>
@@ -139,7 +126,7 @@ export const DonationBlock: React.FC<DonationBlockProps> = ({ isDark }) => {
                   value={customAmount}
                   onChange={(e) => setCustomAmount(e.target.value)}
                   placeholder={t('donate.enterAmount')}
-                  className={`pl-8 pr-4 py-3 rounded-xl ${themeClasses.inputBg} border ${themeClasses.inputBorder} ${themeClasses.text} focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300`}
+                  className={`pl-8 pr-4 py-3 rounded-xl ${themeClasses.inputBg} border ${themeClasses.inputBorder} ${themeClasses.text} focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300`}
                   min="1"
                   step="0.01"
                 />
@@ -147,7 +134,7 @@ export const DonationBlock: React.FC<DonationBlockProps> = ({ isDark }) => {
               <button
                 onClick={() => handleDonate(0)}
                 disabled={!customAmount || parseFloat(customAmount) <= 0}
-                className="px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl font-semibold text-sm sm:text-base disabled:opacity-50 disabled:cursor-not-allowed hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 whitespace-nowrap"
+                className="px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-xl font-semibold text-sm sm:text-base disabled:opacity-50 disabled:cursor-not-allowed hover:opacity-90 transition-all duration-300 whitespace-nowrap"
               >
                 {t('donate.button')}
               </button>
@@ -166,4 +153,3 @@ export const DonationBlock: React.FC<DonationBlockProps> = ({ isDark }) => {
     </div>
   );
 };
-
