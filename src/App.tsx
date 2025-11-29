@@ -8,10 +8,13 @@ import { PrivacyPolicy } from './components/PrivacyPolicy';
 import { Footer } from './components/Footer';
 import { ArrowRight } from 'lucide-react';
 
+const DONATION_ENABLED = false;
+
 function AppContent() {
   const { t, language, setLanguage } = useLanguage();
   const [isDarkTheme, setIsDarkTheme] = useState(true);
   const [isVisible, setIsVisible] = useState(false);
+  const [showDonation, setShowDonation] = useState(DONATION_ENABLED);
 
   useEffect(() => {
     setIsVisible(true);
@@ -123,12 +126,13 @@ function AppContent() {
         </section>
 
         <PrivacyPolicy isDarkTheme={isDarkTheme} themeClasses={themeClasses} />
-        {/* Donation Section - Hidden */}
-        {/* <section className={`py-16 sm:py-24 md:py-32 px-4 sm:px-6 relative z-10`}>
-          <div className="max-w-4xl mx-auto">
-            <DonationBlock isDark={isDarkTheme} />
-          </div>
-        </section> */}
+        {showDonation && (
+          <section className={`py-10 sm:py-16 md:py-20 px-4 sm:px-6 relative z-10`}>
+            <div className="max-w-4xl mx-auto">
+              <DonationBlock isDark={isDarkTheme} onClose={() => setShowDonation(false)} />
+            </div>
+          </section>
+        )}
         <Footer isDarkTheme={isDarkTheme} themeClasses={themeClasses} />
       </div>
   );
